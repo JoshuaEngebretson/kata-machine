@@ -1,6 +1,6 @@
 // Linear search in a sorted list
 
-// Runtime is N
+// Runtime is n
 
 export default function linear_search(
     haystack: number[],
