@@ -17,6 +17,7 @@ export default class Queue<T> {
         this.length++;
         if (!this.tail) {
             this.tail = this.head = node;
+            return;
         }
 
         this.tail.next = node;
@@ -35,6 +36,10 @@ export default class Queue<T> {
 
         // free
         head.next = undefined;
+
+        if (this.length === 0) {
+            this.tail = undefined;
+        }
 
         return head.value;
     }
