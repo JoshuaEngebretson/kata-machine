@@ -2,6 +2,8 @@ type Node<T> = {
     value: T;
     next?: Node<T>;
 };
+
+// First In First Out
 export default class Queue<T> {
     public length: number;
     private head?: Node<T>;
