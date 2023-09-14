@@ -2,7 +2,8 @@
 // if needed until no swaps have to be performed during a pass, meaning that
 // the list has become fully sorted.
 
-// Runtime is O(n² + n) OR n²
+// Runtime is O(n² - n) / 2 OR
+// O(n²) (ignoring constants and insignificant numbers)
 
 export default function bubble_sort(arr: number[]): void {
     for (let i = 0; i < arr.length; ++i) {

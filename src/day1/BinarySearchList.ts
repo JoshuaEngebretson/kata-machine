@@ -1,6 +1,6 @@
 // Binary Search in a sorted list
 
-// Runtime is log(n)
+// Runtime is O(log(n))
 
 export default function bs_list(haystack: number[], needle: number): boolean {
     let lo = 0;
