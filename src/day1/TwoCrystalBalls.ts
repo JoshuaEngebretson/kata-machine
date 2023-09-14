@@ -2,6 +2,8 @@
 // distance, determine the exact spot in which it will break in the most
 // optimized way.
 
+// Runtime is O(√n + √n) OR 2√n OR √n
+
 export default function two_crystal_balls(breaks: boolean[]): number {
     const jmpAmount = Math.floor(Math.sqrt(breaks.length));
 

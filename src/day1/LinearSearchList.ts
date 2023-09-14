@@ -1,4 +1,7 @@
 // Linear search in a sorted list
+
+// Runtime is N
+
 export default function linear_search(
     haystack: number[],
     needle: number,

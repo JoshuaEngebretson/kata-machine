@@ -1,4 +1,7 @@
 // Binary Search in a sorted list
+
+// Running time is N (but more efficient than a LinearSearch)
+
 export default function bs_list(haystack: number[], needle: number): boolean {
     let lo = 0;
     let hi = haystack.length;
