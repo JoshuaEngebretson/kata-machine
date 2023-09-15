@@ -1,4 +1,4 @@
-// Depth-First Search implicitly uses a stack Data Structure
+// Depth-First Search implicitly uses a Stack as the Data Structure
 
 function walk(curr: BinaryNode<number> | null, path: number[]): number[] {
     if (!curr) {
