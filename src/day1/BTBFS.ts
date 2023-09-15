@@ -2,8 +2,10 @@
 // // This is the oposite of a Depth-First Search which uses a Stack as the
 // // Data Structure
 
-// Running time should be O(n)
-// but due to using const a = [] it has a running time of O(n²)
+// Running time should be O(n) if working properly on a Queue
+// // but due to using const a = [] (which is an ArrayList within JS/TS)
+// // it has a running time of O(n²)
+
 export default function bfs(head: BinaryNode<number>, needle: number): boolean {
     const q: (BinaryNode<number> | null)[] = [head];
 
