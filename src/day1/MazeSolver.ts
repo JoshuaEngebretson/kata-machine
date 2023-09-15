@@ -70,6 +70,7 @@ function walk(
     return false;
 }
 
+// Runtime of O(n)
 export default function solve(
     maze: string[],
     wall: string,
