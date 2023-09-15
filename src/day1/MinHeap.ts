@@ -7,12 +7,14 @@ export default class MinHeap {
         this.length = 0;
     }
 
+    // Runtime is log(n)
     insert(value: number): void {
         this.data[this.length] = value;
         this.heapifyUp(this.length);
         this.length++;
     }
 
+    // Runtime is log(n)
     // Also reffered to as poll or pop
     delete(): number {
         if (this.length === 0) {
