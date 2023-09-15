@@ -1,3 +1,5 @@
+// Implicitly uses a stack Data Structure
+
 function walk(curr: BinaryNode<number> | null, path: number[]): number[] {
     if (!curr) {
         return path;
