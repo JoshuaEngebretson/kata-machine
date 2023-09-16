@@ -1,3 +1,4 @@
+// Depth-First Search on a Binary Search Tree
 function search(curr: BinaryNode<number> | null, needle: number): boolean {
     if (!curr) {
         return false;
