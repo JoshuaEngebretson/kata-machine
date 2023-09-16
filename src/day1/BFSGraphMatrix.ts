@@ -1,3 +1,7 @@
+// Bredth-First Search on a Graph Matrix (or Adjacency Matrix)
+// // An adjacency Matrix is a 2D array of size V x V where V is the number of
+// // vertices in a graph.
+
 export default function bfs(
     graph: WeightedAdjacencyMatrix,
     source: number,
